@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+} 
+
+.container {
+    border: 1.5vw solid;
+    width: 45vw;
+    height: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 75%);
+}
+
+.gray {
+    background: rgb(110, 108, 108);
+}
+
+.cell {
+    height: 5.625vw;
+    width: 5.625vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
