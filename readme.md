@@ -5,7 +5,7 @@
 3. All 64 squares should always be squares (no rectangle, equal length of all sides)
 4. [Optional] Add chessboard pieces
 
-[Click here]() to check my project!
+[Click here](https://chessboard-flex-grid.vercel.app/) to check my project!
 
 # Chess Board Grid
 ## Instructions:
@@ -15,4 +15,4 @@
 4. Add chessboard pieces
 5. [Optional] Pieces should be able to move
 
-[Click here]() to check my project!
+[Click here](https://chessboard-grid-one.vercel.app/) to check my project!
