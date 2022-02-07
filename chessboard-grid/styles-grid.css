@@ -1,0 +1,94 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0%;
+  }
+  .container {
+    border: 1.5vw solid;
+    width: 45vw;
+    height: 45vw;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 75%);
+  }
+  
+  .cell {
+    font-size: 4vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gray {
+    background: rgb(110, 108, 108);
+  }
+
+  .container:hover .cell:nth-child(54) {
+    animation: whitepawnmove 2s ease-in forwards 1s;
+  }
+  
+  @keyframes whitepawnmove {
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+
+  .container:hover .cell:nth-child(13) {
+    animation: blackpawnmove 2s ease-in forwards 3s;
+  }
+  
+  @keyframes blackpawnmove {
+    100% {
+      transform: translateY(200%);
+    }
+  }
+  
+  .container:hover .cell:nth-child(63) {
+    animation: horsemove 2s ease-in forwards 5s;
+  }
+  
+  @keyframes horsemove {
+    100% {
+      transform: translateX(100%) translateY(-200%);
+    }
+  }
+
+  .container:hover .cell:nth-child(4) {
+  animation: queenmove 2s ease-in forwards 7s;
+}
+
+  @keyframes queenmove {
+    100% {
+      transform: translateY(400%) translateX(400%);
+    }
+  }
+
+  .container:hover .cell:nth-child(52) {
+    animation: whitepawn2move 2s ease-in forwards 9s;
+  }
+  
+  @keyframes whitepawn2move {
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+    .container:hover .cell:nth-child(6) {
+    animation: bishopmove 3s ease-in forwards 11s;
+  }
+  
+    @keyframes bishopmove {
+      15% {
+        transform: translateY(400%) translateX(-400%);
+      }
+      25% {
+        transform: translateY(400%) translateX(-400%);
+      }
+      100% {
+        transform: translateY(700%) translateX(-100%);
+      }
+    }
